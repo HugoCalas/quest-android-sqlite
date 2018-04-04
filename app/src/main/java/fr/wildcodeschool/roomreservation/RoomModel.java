@@ -7,11 +7,11 @@ package fr.wildcodeschool.roomreservation;
 public class RoomModel {
 
     private long id;
-    private String name;
+    private String roomname;
 
-    public RoomModel(long id, String name) {
+    public RoomModel(long id, String roomname) {
         this.id = id;
-        this.name = name;
+        this.roomname = roomname;
     }
 
     public long getId() {
@@ -19,6 +19,6 @@ public class RoomModel {
     }
 
     public String getName() {
-        return name;
+        return roomname;
     }
 }
